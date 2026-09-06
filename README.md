@@ -118,7 +118,7 @@ VERIFIED ✓ or TAMPERED ✗
 ## Installation
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/daksh2525/Face-blockchain-verification.git
 cd face-blockchain-verification
 
 python -m venv .venv
