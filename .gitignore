@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+data/*
+!data/.gitkeep
+input/*
+!input/.gitkeep
+*.onnx
+.insightface/
