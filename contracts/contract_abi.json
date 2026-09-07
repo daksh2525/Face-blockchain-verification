@@ -1,0 +1,23 @@
+[
+  {
+    "inputs": [
+      { "internalType": "bytes32", "name": "contentHash", "type": "bytes32" },
+      { "internalType": "string", "name": "sourceReference", "type": "string" }
+    ],
+    "name": "registerContent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "bytes32", "name": "contentHash", "type": "bytes32" }
+    ],
+    "name": "verifyContent",
+    "outputs": [
+      { "internalType": "bool", "name": "isVerified", "type": "bool" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
